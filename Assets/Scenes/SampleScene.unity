@@ -5492,21 +5492,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &1108317871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108317868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 325794017529e444fbc38aa23f7beaf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackColliders:
-  - {fileID: 1853106229}
-  - {fileID: 1853106228}
 --- !u!82 &1108317875
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5825,9 +5810,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6799155194134901007, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1108317871}
     - targetCorrespondingSourceObject: {fileID: 6799155194134901007, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1108317870}
